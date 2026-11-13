@@ -16,9 +16,9 @@ from qiskit.quantum_info import Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -332,19 +332,19 @@ Posebnost: Kauzalni tenzor torzije prelaza i antisimetricna sprega spina
 CSV: loto7_4718_k90.csv (kola: 4718)
 Validacija -> NLL: 3.6679 | Prosek pogodaka: 1.227
 Test       -> NLL: 3.6697 | Prosek pogodaka: 1.199
-NEXT       -> [3, 5, 9, 10, 12, 17, 33]
+NEXT       -> [3, x, 9, y, 12, z, 33]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_2981.csv (kola: 2981)
 Validacija -> NLL: 3.6653 | Prosek pogodaka: 1.244
 Test       -> NLL: 3.6676 | Prosek pogodaka: 1.210
-NEXT       -> [8, 16, 22, 23, 24, 32, 39]
+NEXT       -> [8, x, 22, y, 24, z, 39]
 ----------------------------------------------------
 
 CSV: loto7_4718_k90_loto_plus_1737.csv (kola: 1737)
 Validacija -> NLL: 3.6654 | Prosek pogodaka: 1.269
 Test       -> NLL: 3.6641 | Prosek pogodaka: 1.268
-NEXT       -> [15, 30, 31, 32, 34, 38, 39]
+NEXT       -> [15, x, 31, y, 34, z, 39]
 ----------------------------------------------------
 """
 
